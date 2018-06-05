@@ -1,16 +1,23 @@
-# SpellCheck
+﻿# SpellCheck
 
 # Synopsis
 This program is a spell-checker. It loads a dictionary, reads in the text from one of the associated text files and checks the spelling of each word, based on whether or not that word is found in the associated dictionary file. The time required for each step is measured and totaled.
 
 # Useage
+Download zip file and, after unzipping, go to CS50 IDE at https://cs50.io/
+Create new folder on left side of screen. Drag contents from unzipped folder to newly created folder.
+Using terminal window from IDE, navigate to "SpellCheck-master" folder.
+
+Compile program using the following command:
+"make speller".
+
 The spell-checker uses the "large" dictionary file, by default:
 ./speller texts/text file
 
 If a different dictionary is desired:
 ./speller dictionaries/dictionary file texts/text file
 
-Code Example
+Execution code example:
 ./speller texts/alice.txt
 
 Program Output:
